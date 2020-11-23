@@ -118,10 +118,14 @@ body
            color:gray;
            background-color:black;
            ">
- <p style="color:red;
+ <marquee scrollamount="" style="
+          position: absolute;
+          color:red;
           font-size:16px;
           margin-top: 0px;
-          font-family:arial">这是BLA国(the Bidirectional Laugh of Ambivalent)的官网,Under construction(至今仅 https://blablablagov.github.io/ 是官网）</p>  
+          font-family:arial;
+          left: 0px;
+          ">这是BLA国(the Bidirectional Laugh of Ambivalent)的官网,Under construction(至今仅 https://blablablagov.github.io/ 是官网）</marquee><marquee>这是BLA国(the Bidirectional Laugh of Ambivalent)的官网,Under construction(至今仅 https://blablablagov.github.io/ 是官网）</marquee>  
         <!-- inner content start -->
 	<p style="
     margin-bottom: 0px;
@@ -176,7 +180,7 @@ body
         <!-- Slideshow start -->
         <div class="slideshow-container">
 
-<div class="mySlides fade" style="display: none;">
+<div class="mySlides fade" style="display: block;">
   <div class="numbertext" style="
     padding-left: 4px;
     padding-top: 4px;
@@ -188,7 +192,7 @@ body
 ">Rock(close)</div>
 </div>
 
-<div class="mySlides fade" style="display: block;">
+<div class="mySlides fade" style="display: none;">
   <div class="numbertext" style="
     padding-left: 4px;
     padding-top: 4px;
@@ -226,8 +230,8 @@ body
 
 
 <div style="text-align:center;margin-top: 4px;">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot active" onclick="currentSlide(2)"></span> 
+  <span class="dot active" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
 
@@ -278,6 +282,7 @@ function showSlides(n) {
     font-family:Courier New">
         <br>©2020,the Bidirectional Laugh of Ambivalent GOV</b></p>
 <!-- outer content end -->
+
 
 
 
