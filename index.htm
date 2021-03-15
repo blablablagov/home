@@ -262,7 +262,7 @@ Website established under L-1Citizens gov right by star笑.Maintained by star笑
 
 
 <div style="text-align:center;margin-top: 4px;">
-  <span class="dot active" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
   <span class="dot" onclick="currentSlide(4)"></span> 
@@ -299,7 +299,45 @@ function showSlides(n) {
       <!-- inner content end -->  
    <hr style="
     margin-bottom: 4px;
-"><span style="
+"><!--test -->
+
+<style>
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+</style>
+
+
+
+
+
+<button onclick="myFunction()">Test</button>
+
+<div id="myDIV">
+<span style="
+    margin-bottom: 4px;
+    color: rgb(220 132 2);
+    ">
+    Website established under L-1Citizens gov right by star笑. Maintained by star笑.</span>
+</div>
+<!--test -->
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script><span style="
     margin-bottom: 4px;
     color: rgb(220 132 2);
     ">
@@ -326,10 +364,6 @@ function showSlides(n) {
     font-family:Courier New">
         <br>©2020~2021,the Bidirectional Laugh of Ambivalent GOV</b></p>
 <!-- outer content end -->
-
-
-
-
 
 
 
