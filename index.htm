@@ -6,7 +6,7 @@ This is the Official website for BLA国`s goverment(the Bidirectional Laugh of A
         <!--side view ccs start-->
         <style>
 * {
-  /*box-sizing: border-box;*/
+  box-sizing: border-box;
 }
 
 /* The grid:equal columns that floats next to each other */
@@ -14,6 +14,10 @@ This is the Official website for BLA国`s goverment(the Bidirectional Laugh of A
   float: left;
   width: 25%;
   padding: 10px;
+    
+    padding-left: 2px;
+    padding-right: 2px;
+
 }
 
 /* Style the images inside the grid */
@@ -51,8 +55,8 @@ This is the Official website for BLA国`s goverment(the Bidirectional Laugh of A
 /* Closable button inside the expanded image */
 .closebtn {
   position: absolute;
-  top: 10px;
-  right: 15px;
+  top: 6px;
+  right: 10px;
   color: white;
   font-size: 35px;
   cursor: pointer;
@@ -161,9 +165,11 @@ Website established under L-1Citizens gov right by star笑.Maintained by star笑
   right: auto;
   top: 100px;
   ">
-  <a href="#Links" style="margin-left: 0px;width: 24px;left: 4px;right: auto;padding-left: 0px;">📎</a>
-  <a href="#News" style="margin-left: 0px;width: 24px;left: 4px;right: auto;padding-left: 0px;">📰</a>
-  <a href="#landscapePic" style="margin-left: 0px;width: 24px;left: 4px;right: auto;padding-left: 0px;">📷</a>
+  
+  <abbr title="Links"><a href="#Links" style="margin-left: 0px;width: 24px;left: 4px;right: auto;padding-left: 0px;">📎</a></abbr>
+<abbr title="News">
+<a href="#News" style="margin-left: 0px;width: 24px;left: 4px;right: auto;padding-left: 0px;">📰</a></abbr>
+  <abbr title="landscapePic"><a href="#landscapePic" style="margin-left: 0px;width: 24px;left: 4px;right: auto;padding-left: 0px;">📷</a></abbr>
 </div>
 <!--side bar end-->
 	<a id="Links"><p style="
@@ -259,10 +265,10 @@ Website established under L-1Citizens gov right by star笑.Maintained by star笑
   </div>
 </div>
 
-<div class="container">
+<div class="container" style="display: block;padding-bottom: 8px;">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">×</span>
-  <img id="expandedImg" style="width:100%">
-  <div id="imgtext"></div>
+  <img id="expandedImg" style="width:100%" src="https://blablablagov.github.io/home/M.B.%20Sign.jpg">
+  <div id="imgtext">A sign</div>
 </div>
 
 <script>
@@ -285,18 +291,19 @@ function myFunction(imgs) {
 <button onclick="ShowHideFunc()" style="border-radius: 4px;    border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;
 
 ">Show/hide more site info</button><div id="myDIV" style="border-radius: 0px 4px 4px; display: block; background-color: rgba(103, 255, 255, 0.5); border-style: groove; margin-bottom: 0px;">
-<span style="
+<li style="
     color: rgb(220 132 2);
     ">
-    Website established under L-1Citizens gov right by star笑. Maintained by star笑.</span><br>
-<span style="
+   This static website is established by L-1 Citizen star笑. Maintained by star笑.</li>
+<li style="
     color: rgb(220 132 2);
-    ">This website depends on the working service of "GitHub, Inc."And might be hacked.Do not use for legal verification,just for easy of access.</span>
-<br><span style="
+    ">This website depends on the working service of "GitHub, Inc."And might be hacked.Do not use for legal verification,just for easy of access.</li>
+<li style="
     color: rgb(220 132 2);
-    ">This website is coded on a 1366*768px screen. </span><br><span style="
+    ">This website is coded on a 1366*768px screen. </li>
+    <li style="
     color: rgb(220 132 2);
-    ">BLABLABLAgov does not use "cookies" on it`s websites</span>
+    ">BLABLABLAgov does not use "cookies" on it`s websites</li>
 </div>
 <script>
 function ShowHideFunc() {
@@ -328,12 +335,13 @@ function ShowHideFunc() {
     font-family:Courier New;
     margin-left: 64px;
     ">
-    LastUpdate:2021y/05m/25d
+    LastUpdate:2021y/05m/30d
     <b style="
     margin-top: 2px;
     font-family:Courier New">
         <br>©2020~2021,the Bidirectional Laugh of Ambivalent GOV</b></p>
 <!-- outer content end -->
+
 
 
 
