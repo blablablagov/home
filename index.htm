@@ -1,4 +1,4 @@
-<html><!-- ©2020~2022,the Bidirectional Laugh of Ambivalent GOV --><!--meta setup and some css--><head>
+<html lang="en"><!-- ©2020~2022,the Bidirectional Laugh of Ambivalent GOV --><!--meta setup and some css--><head>
     <link rel="icon" href="favicon.ico">
          <meta name="description" content="
 This is the Official website for BLA国`s goverment(the Bidirectional Laugh of Ambivalent)(Under construction）-BLAgov">
@@ -7,31 +7,9 @@ This is the Official website for BLA国`s goverment(the Bidirectional Laugh of A
     <meta charset="“UTF-8”">
     
 <title>Bidirectional Laugh of Ambivalent</title>
-        <!-- mostly other people's css code below-->
+        
         <style>
-    * {
- * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
-
-/* Now here we are just styling the background and centering it to the middle */
-
-html,
-body {
-    width: 100%;
-    height: 100%;
-    background: #f1f1f1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-    /*confi test abovle------------------*/
-
-    
-    /*Text selection color*/
+            /*Text selection color*/
             ::selection {
   color: #4cacfa;
   background:#42d5760f;
@@ -96,29 +74,11 @@ body {
 </style>
         <!--side view ccs end-->
     </head>
-    <!-- outer content start -->
-    <body style="background-color:#e6ffff;">
+<body style="background-color:#e6ffff;"><canvas id="confetti-canvas" style="display:block;z-index:999999;pointer-events:none;position:fixed;top:0" width="830" height="665"></canvas>
 	<h1 style="color:black;font-size:40px;margin-top: 0px;margin-bottom: 0px;font-family:Times New Roman;"><img src="国徽.png" style="
     height: 40px;
     width: 44px;
     "><i style="font-size:24px;color:#4d4d4d;">the</i>B<span style="color:#4d4d4d;">idirectional</span>  L<span style="color:#4d4d4d;">augh</span> <i style="font-size:24px;color:#4d4d4d;">of </i>A<span style="color:#4d4d4d;">mbivalent</span></h1>
-<!--conf script test start-->
-     <script src="confetti.js">        const start = () => {
-            setTimeout(function() {
-                confetti.start()
-            }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
-        };
-
-        //  for stopping the confetti 
-/*   const stop = () => {
-            setTimeout(function() {
-                confetti.stop()
-            }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
-        };  */
-       
-// after this here we are calling both the function so it works
-        start();
-            /*  stop(); */</script>
     <p style="color:blue;font-size:20px;margin-top: 0px;margin-bottom: 10px;"><span style="color: hsl(180deg 100% 48%);">Motto:</span>"We seek for the funness of playing together freely."</p>
 <hr style="
            height: 2px;
@@ -338,7 +298,6 @@ function myFunction(imgs) {
       <!-- inner content end -->  
    <!--test -->
 <button onclick="ShowHideFunc()" style="border-radius: 4px;    border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;
-
 ">Show/hide more site info</button><div id="myDIV" style="border-radius: 0px 4px 4px; display: none; background-color: rgba(103, 202, 255, 0.4); border-style: groove; margin-bottom: 0px;">
 <li style="
     color: #dc8402;
@@ -390,8 +349,27 @@ function ShowHideFunc() {
     font-family:Courier New">
         <br>©2020~2022,the Bidirectional Laugh of Ambivalent GOV</b></p>
 <!-- outer content end -->
+<script>
 
+        // start
 
+        const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 6000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+        };
+
+        //  Stop
+
+        const stop = () => {
+            setTimeout(function() {
+                confetti.stop()
+            }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+        };
+
+        start();
+        stop();
+    </script>
 
 
 
