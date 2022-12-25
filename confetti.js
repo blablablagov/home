@@ -2,7 +2,7 @@ var confetti = {
 	maxCount: 150,		//set max confetti count
 	speed: 2,			//set the particle animation speed
 	frameInterval: 15,	//the confetti animation frame interval in milliseconds
-	alpha: 1.0,			//the alpha opacity of the confetti (between 0 and 1, where 1 is opaque and 0 is invisible)
+	alpha: 0.7,			//the alpha opacity of the confetti (between 0 and 1, where 1 is opaque and 0 is invisible)
 	gradient: false,	//whether to use gradients for the confetti particles
 	start: null,		//call to start confetti animation (with optional timeout in milliseconds, and optional min and max random confetti count)
 	stop: null,			//call to stop adding confetti
@@ -26,7 +26,7 @@ var confetti = {
 	confetti.remove = removeConfetti;
 	confetti.isRunning = isConfettiRunning;
 	var supportsAnimationFrame = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame;
-	var colors = ["rgba(30,144,255,", "rgba(107,142,35,", "rgba(255,215,0,", "rgba(255,192,203,", "rgba(106,90,205,", "rgba(173,216,230,", "rgba(238,130,238,", "rgba(152,251,152,", "rgba(70,130,180,", "rgba(244,164,96,", "rgba(210,105,30,", "rgba(220,20,60,"];
+	var colors = ["rgba(30,144,255,", "rgba(0, 135, 62,", "rgba(9, 145, 71,", "rgba(11, 117, 59,", "rgba(12, 135, 31,", "rgba(17, 168, 40,", "rgba(197, 66, 69,", "rgba(181, 58, 61,", "rgba(189, 43, 21,", "rgba(194, 19, 19,", "rgba(37, 196, 157,", "rgba(218, 237, 232,"];
 	var streamingConfetti = false;
 	var animationTimer = null;
 	var pause = false;
